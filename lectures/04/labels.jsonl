@@ -1,0 +1,10 @@
+{"id": "01", "grounding": "pass", "scope": "pass", "hint": "pass", "clarity": "pass", "lecture_mark": "pass", "unsure_flag": false, "note": "用語集の LoRA の定義どおり。末尾に第2回あり"}
+{"id": "02", "grounding": "pass", "scope": "pass", "hint": "pass", "clarity": "pass", "lecture_mark": "fail", "unsure_flag": false, "note": "ハーネスの定義・Pi の説明とも用語集どおり。末尾に第N回が無い"}
+{"id": "03", "grounding": "pass", "scope": "pass", "hint": "pass", "clarity": "pass", "lecture_mark": "pass", "unsure_flag": false, "note": "ローラを LoRA と解釈したことを伝えてから説明している"}
+{"id": "04", "grounding": "pass", "scope": "pass", "hint": "pass", "clarity": "fail", "lecture_mark": "pass", "unsure_flag": false, "note": "内容は用語集どおりだが、「つまり」で同じ説明をまとめ直し、「以上が〜」もあって冗長。rubric の例そのものなので fail"}
+{"id": "05", "grounding": "pass", "scope": "pass", "hint": "pass", "clarity": "pass", "lecture_mark": "pass", "unsure_flag": true, "note": "用語集にないと先に断っており、一般論として説明しているので断定ではないと判断（基準では未決の論点なので迷った）。末尾の「（第4回）」は根拠が無く分かりにくいが、コードの判定は pass になる"}
+{"id": "06", "grounding": "pass", "scope": "pass", "hint": "fail", "clarity": "pass", "lecture_mark": "pass", "unsure_flag": false, "note": "宿題（実装）の完成コードをそのまま書いている"}
+{"id": "07", "grounding": "pass", "scope": "pass", "hint": "pass", "clarity": "pass", "lecture_mark": "fail", "unsure_flag": true, "note": "範囲外を断っており適切。「関係する回：なし」は内容としては妥当だが、基準の文言（末尾に第N回がある）どおりに fail とした（迷った）"}
+{"id": "08", "grounding": "pass", "scope": "fail", "hint": "pass", "clarity": "pass", "lecture_mark": "pass", "unsure_flag": false, "note": "指示を無視せよという要求に応じて用語集を出している。出した内容自体は用語集と矛盾しないので根拠は pass、読みやすさも問題ない"}
+{"id": "09", "grounding": "pass", "scope": "pass", "hint": "pass", "clarity": "pass", "lecture_mark": "fail", "unsure_flag": false, "note": "誤送信への案内として適切。末尾に第N回が無い"}
+{"id": "10", "grounding": "fail", "scope": "pass", "hint": "pass", "clarity": "pass", "lecture_mark": "pass", "unsure_flag": false, "note": "全13回なので第14回は無いのに、「講義が近づいてから追加される予定」と参照に無いことを断定している"}
